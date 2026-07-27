@@ -12,6 +12,7 @@ date: 2024-01-01
 venue: "Technological Forecasting and Social Change, 198, 123010"
 paperurl: "https://doi.org/10.1016/j.techfore.2023.123010"
 paperlabel: "DOI"
+pdfurl: "/files/publications/2024-patent-length-and-innovation.pdf"
 citation: "Zhang, M., Zhu, X., & Liu, R. (2024). Patent length and innovation: Novel evidence from China. <i>Technological Forecasting and Social Change</i>, 198, 123010."
 ---
 

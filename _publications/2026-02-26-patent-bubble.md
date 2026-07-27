@@ -19,6 +19,7 @@ date: 2026-02-26
 venue: "科学学研究"
 paperurl: "https://doi.org/10.16192/j.cnki.1003-2053.20260226.003"
 paperlabel: "DOI"
+pdfurl: "/files/publications/2026-patent-bubbles-fast-lane.pdf"
 citation: "刘睿、朱雪忠（2026）：《快车道上的“专利泡沫”——来自中国专利申请提前公开的证据》，《科学学研究》，网络首发。"
 ---
 

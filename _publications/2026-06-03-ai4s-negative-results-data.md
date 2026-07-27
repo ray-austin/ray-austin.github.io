@@ -19,6 +19,7 @@ date: 2026-06-03
 venue: "科学学研究"
 paperurl: "https://doi.org/10.16192/j.cnki.1003-2053.20260603.002"
 paperlabel: "DOI"
+pdfurl: "/files/publications/2026-ai4s-negative-results-data.pdf"
 citation: "代志在、刘睿、蔡葵（2026）：《AI4S 背景下阴性结果数据的价值及实现机制》，《科学学研究》，网络首发。"
 ---
 

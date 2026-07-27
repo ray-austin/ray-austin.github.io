@@ -18,6 +18,7 @@ date: 2025-07-01
 venue: "科研管理, 46(7), 185–192"
 paperurl: "https://doi.org/10.19571/j.cnki.1000-2995.2025.07.018"
 paperlabel: "DOI"
+pdfurl: "/files/publications/2025-early-patent-publication-technology-transactions.pdf"
 citation: "刘睿、朱雪忠（2025）：《专利申请提前公开对技术交易的影响研究》，《科研管理》第46卷第7期，第185–192页。"
 ---
 

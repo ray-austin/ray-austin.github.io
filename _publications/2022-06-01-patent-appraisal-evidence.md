@@ -5,6 +5,7 @@ language: zh
 collection: publications
 permalink: /publication/2022-patent-appraisal-evidence/
 section: current
+selected: true
 authors: "刘睿、乔永忠"
 role: "First author"
 excerpt: "Using court decisions from across China, this study examines the evidentiary weight of patent technical appraisal opinions and offers institutional recommendations for commissioning, cross-examination, and professional oversight."
@@ -12,6 +13,7 @@ date: 2022-06-01
 venue: "科技与法律（中英文）, 2022(3), 76–84"
 paperurl: "https://doi.org/10.19685/j.cnki.cn11-2922/n.2022.03.009"
 paperlabel: "DOI"
+pdfurl: "/files/publications/2022-patent-technical-appraisal-evidence.pdf"
 citation: "刘睿、乔永忠（2022）：《专利技术鉴定意见证据效力实证研究及政策启示》，《科技与法律（中英文）》第3期，第76–84页。"
 ---
 

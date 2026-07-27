@@ -19,6 +19,7 @@ date: 2026-05-07
 venue: "科研管理"
 paperurl: "https://link.cnki.net/urlid/11.1567.G3.20260507.1326.002"
 paperlabel: "CNKI"
+pdfurl: "/files/publications/2026-cost-of-acceleration.pdf"
 citation: "刘睿、朱雪忠（2026）：《加速的代价：专利提前公开如何侵蚀创新价值》，《科研管理》，网络首发。"
 ---
 

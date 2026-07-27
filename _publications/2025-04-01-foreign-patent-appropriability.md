@@ -18,6 +18,7 @@ date: 2025-04-01
 venue: "中国软科学, 2025(4), 41–52"
 paperurl: "https://cnki.istiz.org.cn/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2025&filename=ZGRK202504004"
 paperlabel: "CNKI"
+pdfurl: "/files/publications/2025-foreign-patent-appropriability.pdf"
 citation: "蒋启蒙、朱雪忠、刘睿（2025）：《外国企业在华专利独占性的技术路径依赖效应：来自集成电路制造业的证据》，《中国软科学》第4期，第41–52页。"
 ---
 

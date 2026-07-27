@@ -5,6 +5,7 @@ language: zh
 collection: publications
 permalink: /publication/2021-patent-returns/
 section: current
+selected: true
 authors: "乔永忠、刘睿"
 role: "Corresponding author"
 excerpt: "Combining logistic regression with a BP neural network, this study identifies the main determinants of patent profitability across applicant-, patent-, and event-level characteristics."
@@ -12,6 +13,7 @@ date: 2021-10-01
 venue: "科学学研究, 39(10), 1850–1859"
 paperurl: "https://doi.org/10.16192/j.cnki.1003-2053.20210319.004"
 paperlabel: "DOI"
+pdfurl: "/files/publications/2021-patent-profitability.pdf"
 citation: "乔永忠、刘睿（2021）：《专利收益影响因素实证研究》，《科学学研究》第39卷第10期，第1850–1859页。"
 ---
 
