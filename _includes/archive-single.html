@@ -72,18 +72,14 @@
     <div class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></div>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p class="publication-links"><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "View publication" }}</a> <a href="{{ post.slidesurl }}">Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p class="publication-links"><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "View publication" }}</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p class="publication-links"><a href="{{ post.slidesurl }}">Slides</a></p>
+    {% if post.pdfurl or post.paperurl or post.slidesurl %}
+      <p class="publication-links">
+        {% if post.pdfurl %}<a href="{{ post.pdfurl | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.paperlabel | default: "View publication" }}</a>{% endif %}
+        {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+      </p>
     {% elsif post.citation %}
       <p class="publication-citation">{{ post.citation }}</p>
-    {% elsif post.paperurl %}
-      <p class="publication-links"><a href="{{ post.paperurl }}">{{ post.paperlabel | default: "View publication" }}</a></p>
-    {% elsif post.slidesurl %}
-      <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
     {% endif %}
 
   </article>
