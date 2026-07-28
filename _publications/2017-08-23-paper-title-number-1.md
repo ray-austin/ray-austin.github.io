@@ -3,7 +3,6 @@ title: "Efficient in situ growth of platinum nanoclusters on the surface of Fe<s
 collection: publications
 permalink: /publication/2017-08-23-paper-title-number-1/
 section: earlier
-selected: true
 authors: "Rui Huang and Rui Liu"
 excerpt: "Undergraduate research on a fluorescent magnetic nanomaterial for visualizing latent fingermarks."
 date: 2017-08-23

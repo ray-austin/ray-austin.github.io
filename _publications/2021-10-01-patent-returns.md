@@ -5,7 +5,6 @@ language: zh
 collection: publications
 permalink: /publication/2021-patent-returns/
 section: current
-selected: true
 authors: "乔永忠、刘睿"
 role: "Corresponding author"
 excerpt: "Combining logistic regression with a BP neural network, this study identifies the main determinants of patent profitability across applicant-, patent-, and event-level characteristics."

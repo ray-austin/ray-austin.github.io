@@ -5,7 +5,6 @@ language: zh
 collection: publications
 permalink: /publication/2022-patent-appraisal-evidence/
 section: current
-selected: true
 authors: "刘睿、乔永忠"
 role: "First author"
 excerpt: "Using court decisions from across China, this study examines the evidentiary weight of patent technical appraisal opinions and offers institutional recommendations for commissioning, cross-examination, and professional oversight."
