@@ -77,7 +77,7 @@ My current work combines intellectual property management, innovation economics,
   {% include archive-single.html home=true %}
 {% endfor %}
 
-<p class="section-link"><a href="/publications/">See all nine selected publications <span aria-hidden="true">→</span></a></p>
+<p class="section-link"><a href="/publications/">See all publications <span aria-hidden="true">→</span></a></p>
 
 ## Contact
 
