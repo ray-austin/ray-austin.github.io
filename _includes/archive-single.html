@@ -7,8 +7,10 @@
 {% endif %}
 
 {% if post.id %}
-  {% if include.home and post.homepage_title %}
+  {% if post.language == 'zh' and include.home and post.homepage_title %}
     {% assign title = post.homepage_title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% elsif post.language == 'zh' and post.english_title %}
+    {% assign title = post.english_title | markdownify | remove: "<p>" | remove: "</p>" %}
   {% else %}
     {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
   {% endif %}
@@ -37,7 +39,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if include.home and post.language == 'zh' %}
+    {% if post.language == 'zh' %}
       <p class="publication-original-title">{{ post.title }}</p>
     {% endif %}
     
