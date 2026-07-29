@@ -31,8 +31,8 @@ My current work combines intellectual property management, innovation economics,
   </div>
   <div class="research-card">
     <span class="research-card__number">02</span>
-    <h3>Technology markets</h3>
-    <p>Information asymmetry, technology transactions, and the commercialization of patents.</p>
+    <h3>Patent examination</h3>
+    <p>Priority examination, rapid pre-examination, centralized examination, and their effects on patent quality and innovation in China.</p>
   </div>
   <div class="research-card">
     <span class="research-card__number">03</span>
