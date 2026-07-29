@@ -80,6 +80,7 @@ My current work combines intellectual property management, innovation economics,
     <p class="publication-meta"><i>{{ paper.venue }}</i>, {{ paper.year }} <span class="publication-status">{{ paper.status }}</span></p>
     <div class="archive__item-excerpt" itemprop="description"><p>{{ paper.excerpt }}</p></div>
     <p class="publication-links">
+      {% if paper.pdf %}<a href="{{ paper.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
       <a href="{{ paper.url }}" target="_blank" rel="noopener">SSRN</a>
       <a href="{{ paper.doi }}" target="_blank" rel="noopener">DOI</a>
     </p>
