@@ -68,6 +68,25 @@ My current work combines intellectual property management, innovation economics,
   </article>
 </div>
 
+## Working papers
+
+{% for paper in site.data.working-papers %}
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <h3 class="archive__item-title" itemprop="headline">
+      <a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+    </h3>
+    <p class="publication-authors" itemprop="author">{{ paper.authors }}</p>
+    <p class="publication-meta"><i>{{ paper.venue }}</i>, {{ paper.year }} <span class="publication-status">{{ paper.status }}</span></p>
+    <div class="archive__item-excerpt" itemprop="description"><p>{{ paper.excerpt }}</p></div>
+    <p class="publication-links">
+      <a href="{{ paper.url }}" target="_blank" rel="noopener">SSRN</a>
+      <a href="{{ paper.doi }}" target="_blank" rel="noopener">DOI</a>
+    </p>
+  </article>
+</div>
+{% endfor %}
+
 ## Selected publications
 
 <p class="publication-ranking-legend"><strong>NSFC A</strong><span>国家自然科学基金管理科学部 A 类期刊</span></p>

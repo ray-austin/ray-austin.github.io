@@ -16,7 +16,26 @@ author_profile: true
   <a href="{{ site.author.orcid }}">ORCID</a>
 </div>
 
-<h2 class="publication-section-title">Intellectual property &amp; innovation</h2>
+<h2 class="publication-section-title">Working papers</h2>
+
+{% for paper in site.data.working-papers %}
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <h3 class="archive__item-title" itemprop="headline">
+      <a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+    </h3>
+    <p class="publication-authors" itemprop="author">{{ paper.authors }}</p>
+    <p class="publication-meta"><i>{{ paper.venue }}</i>, {{ paper.year }} <span class="publication-status">{{ paper.status }}</span></p>
+    <div class="archive__item-excerpt" itemprop="description"><p>{{ paper.excerpt }}</p></div>
+    <p class="publication-links">
+      <a href="{{ paper.url }}" target="_blank" rel="noopener">SSRN</a>
+      <a href="{{ paper.doi }}" target="_blank" rel="noopener">DOI</a>
+    </p>
+  </article>
+</div>
+{% endfor %}
+
+<h2 class="publication-section-title publication-section-title--later">Intellectual property &amp; innovation</h2>
 
 {% assign current_publications = site.publications | where: "section", "current" | sort: "date" | reverse %}
 {% for post in current_publications %}
