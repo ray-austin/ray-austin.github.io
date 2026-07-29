@@ -57,8 +57,8 @@
           {% endif %}
           <p class="publication-meta">
             <i>{% if include.home and post.homepage_venue %}{{ post.homepage_venue }}{% else %}{{ post.venue }}{% endif %}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
-            {% if include.home and post.homepage_language %}<span class="publication-language">{{ post.homepage_language }}</span>{% endif %}
-            {% if include.home and post.homepage_badges %}
+            {% if post.homepage_language %}<span class="publication-language">{{ post.homepage_language }}</span>{% endif %}
+            {% if post.homepage_badges %}
               {% for badge in post.homepage_badges %}<span class="publication-ranking">{{ badge }}</span>{% endfor %}
             {% endif %}
             {% if post.status %}<span class="publication-status">{{ post.status }}</span>{% endif %}
