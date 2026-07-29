@@ -25,7 +25,7 @@ author_profile: true
       <a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
     </h3>
     <p class="publication-authors" itemprop="author">{{ paper.authors }}</p>
-    <p class="publication-meta"><i>{{ paper.venue }}</i>, {{ paper.year }} <span class="publication-status">{{ paper.status }}</span></p>
+    <p class="publication-meta"><i>{{ paper.venue }}</i>, {{ paper.year }} <span class="publication-status">{{ paper.status }}</span>{% if paper.role %}<span class="publication-role">{{ paper.role }}</span>{% endif %}</p>
     <div class="archive__item-excerpt" itemprop="description"><p>{{ paper.excerpt }}</p></div>
     <p class="publication-links">
       {% if paper.pdf %}<a href="{{ paper.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}
